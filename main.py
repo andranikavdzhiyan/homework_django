@@ -34,7 +34,7 @@ class MyServer(BaseHTTPRequestHandler):
 
     def get_path(self) -> str:
         if self.path == "/":
-            return "home_page.html"
+            return "contacts_page.html"
         return self.path[1:]
 
     def get_content_type(self) -> str:
